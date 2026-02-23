@@ -43,3 +43,4 @@ D:\Sistemas\Mobile\SqlAPI\SqlAPI\obj\Debug\net8.0\refint\SqlAPI.dll
 D:\Sistemas\Mobile\SqlAPI\SqlAPI\obj\Debug\net8.0\SqlAPI.pdb
 D:\Sistemas\Mobile\SqlAPI\SqlAPI\obj\Debug\net8.0\SqlAPI.genruntimeconfig.cache
 D:\Sistemas\Mobile\SqlAPI\SqlAPI\obj\Debug\net8.0\ref\SqlAPI.dll
+D:\Sistemas\Mobile\SqlAPI\SqlAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

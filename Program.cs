@@ -3,27 +3,40 @@ using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Forçar TLS 1.2 para conexões SQL Server
+// ------------------------------
+// FORÇAR TLS 1.2 PARA SQL SERVER
+// ------------------------------
 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
-// Add services to the container.
-
+// ------------------------------
+// ADD SERVICES
+// ------------------------------
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//JSON Serializer
-builder.Services.AddControllers().AddNewtonsoftJson(options =>
-options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore).AddNewtonsoftJson(options =>
-options.SerializerSettings.ContractResolver = new DefaultContractResolver());
+// JSON Serializer com Newtonsoft.Json
+builder.Services.AddControllers()
+    .AddNewtonsoftJson(options =>
+        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
+    .AddNewtonsoftJson(options =>
+        options.SerializerSettings.ContractResolver = new DefaultContractResolver());
 
+// ------------------------------
+// BUILD APP
+// ------------------------------
 var app = builder.Build();
 
-//Enable CORS
+// ------------------------------
+// ENABLE CORS (para teste/development)
+// ------------------------------
 app.UseCors(c => c.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 
-// Configure the HTTP request pipeline.
+// ------------------------------
+// MIDDLEWARES
+// ------------------------------
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -32,6 +45,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 
+// ------------------------------
+// MAP CONTROLLERS
+// ------------------------------
 app.MapControllers();
 
+// ------------------------------
+// RUN APP
+// ------------------------------
 app.Run();
