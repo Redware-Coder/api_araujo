@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Sistemas\\Projeto Araujo\\api_araujo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59CF1C81-947F-4880-8605-818AA1641B75}|SqlAPI\\SqlAPI.csproj|d:\\sistemas\\projeto araujo\\api_araujo\\sqlapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59CF1C81-947F-4880-8605-818AA1641B75}|SqlAPI\\SqlAPI.csproj|solutionrelative:sqlapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Sistemas\\Projeto Araujo\\api_araujo\\SqlAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "SqlAPI\\appsettings.json",
+              "ToolTip": "D:\\Sistemas\\Projeto Araujo\\api_araujo\\SqlAPI\\appsettings.json*",
+              "RelativeToolTip": "SqlAPI\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T13:29:40.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
