@@ -1,6 +1,10 @@
 using Newtonsoft.Json.Serialization;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Forçar TLS 1.2 para conexões SQL Server
+ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
 // Add services to the container.
 

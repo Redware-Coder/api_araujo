@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SqlAPI.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class SqlApp : ControllerBase
