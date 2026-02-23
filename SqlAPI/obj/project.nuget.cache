@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y1WT2kN6890=",
+  "dgSpecHash": "Xe/u4qcdmAQ=",
   "success": true,
-  "projectFilePath": "D:\\Sistemas\\Mobile\\SqlAPI\\SqlAPI\\SqlAPI.csproj",
+  "projectFilePath": "D:\\Sistemas\\Projeto Araujo\\api_araujo\\SqlAPI\\SqlAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T.I\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.20\\microsoft.aspnetcore.jsonpatch.7.0.20.nupkg.sha512",
     "C:\\Users\\T.I\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.20\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.20.nupkg.sha512",

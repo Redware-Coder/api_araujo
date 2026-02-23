@@ -842,11 +842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sistemas\\Mobile\\SqlAPI\\SqlAPI\\SqlAPI.csproj",
+      "projectUniqueName": "D:\\Sistemas\\Projeto Araujo\\api_araujo\\SqlAPI\\SqlAPI.csproj",
       "projectName": "SqlAPI",
-      "projectPath": "D:\\Sistemas\\Mobile\\SqlAPI\\SqlAPI\\SqlAPI.csproj",
+      "projectPath": "D:\\Sistemas\\Projeto Araujo\\api_araujo\\SqlAPI\\SqlAPI.csproj",
       "packagesPath": "C:\\Users\\T.I\\.nuget\\packages\\",
-      "outputPath": "D:\\Sistemas\\Mobile\\SqlAPI\\SqlAPI\\obj\\",
+      "outputPath": "D:\\Sistemas\\Projeto Araujo\\api_araujo\\SqlAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
