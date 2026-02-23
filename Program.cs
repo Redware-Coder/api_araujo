@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // ------------------------------
 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
+
 // ------------------------------
 // ADD SERVICES
 // ------------------------------
